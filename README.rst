@@ -1,3 +1,13 @@
+## ArchVelo compatibility patch
+
+This repository is based on MultiVelo 0.1.3.
+
+Modification:
+During gene-wise dynamical initialization, genes that raise division by zero are skipped instead of terminating velocity inference.
+
+This is a temporary compatibility patch used by ArchVelo.
+The underlying MultiVelo implementation is otherwise unchanged.
+
 MultiVelo - Velocity Inference from Single-Cell Multi-Omic Data
 ===============================================================
 
